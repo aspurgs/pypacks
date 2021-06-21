@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mypacks-pkg-aspurgs
+Version: 0.0.1
+Summary: A simple, faster and efficient package for addition
+Home-page: https://github.com/aspurgs/pypacks
+Author: aspurgs
+Author-email: aspurgs@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/aspurgs/pypacks/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# The mypacks Package
+This package contains simpler, faster, and more efficient functions and codes.
+
+##mathfun
+- 1. addAll
+###Usage: 
+This function can be used to add number of numbers.
+
+###Parameters/Arguments:
+You can pass a number or number of numbers by separaring with commas.
+you can also pass list, tuple or array using astrics(*) operator as prefix for parameter/argument
+##author
+aspurgs
+
+

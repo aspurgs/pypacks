@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/mypacks/__init__.py
+src/mypacks/mathfun.py
+src/mypacks_pkg_aspurgs.egg-info/PKG-INFO
+src/mypacks_pkg_aspurgs.egg-info/SOURCES.txt
+src/mypacks_pkg_aspurgs.egg-info/dependency_links.txt
+src/mypacks_pkg_aspurgs.egg-info/top_level.txt
