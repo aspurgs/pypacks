@@ -1,0 +1,26 @@
+import setuptools
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="mypacks-pkg-aspurgs",
+    version="0.0.1",
+    author="aspurgs",
+    author_email="aspurgs@gmail.com",
+    description="A simple, faster and efficient package for addition",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/aspurgs/pypacks",
+    project_urls={
+        "Bug Tracker": "https://github.com/aspurgs/pypacks/issues",
+    },
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    package_dir={"": "src"},
+    packages=setuptools.find_packages(where="src"),
+    python_requires=">=3.6",
+)
